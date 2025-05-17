@@ -1,0 +1,263 @@
+2025-05-16 21:25:56,797 - INFO - 127.0.0.1 - - [16/May/2025 21:25:56] "[35m[1mGET /teachers HTTP/1.1[0m" 500 -
+2025-05-16 21:25:56,993 - INFO - 127.0.0.1 - - [16/May/2025 21:25:56] "[36mGET /teachers?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-16 21:25:56,996 - INFO - 127.0.0.1 - - [16/May/2025 21:25:56] "[36mGET /teachers?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-16 21:25:57,098 - INFO - 127.0.0.1 - - [16/May/2025 21:25:57] "[36mGET /teachers?__debugger__=yes&cmd=resource&f=console.png&s=gjciRlOYvAzlVoCfcdNF HTTP/1.1[0m" 304 -
+2025-05-16 21:26:01,369 - WARNING - Face log file face_logs.csv not found
+2025-05-16 21:26:01,372 - INFO - Dashboard access for user: admin, role: admin, ID: 1
+2025-05-16 21:26:01,372 - INFO - Admin dashboard loaded with 2 users, 2 subjects, 0 schedules
+2025-05-16 21:26:01,382 - INFO - 127.0.0.1 - - [16/May/2025 21:26:01] "GET /dashboard HTTP/1.1" 200 -
+2025-05-16 21:26:01,544 - INFO - 127.0.0.1 - - [16/May/2025 21:26:01] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+2025-05-16 21:31:02,492 - INFO -  * Detected change in 'C:\\Users\\Muhammad Zubair\\Desktop\\attendanceSystem\\attsys.py', reloading
+2025-05-16 21:31:02,782 - INFO -  * Restarting with stat
+2025-05-16 21:31:05,051 - WARNING -  * Debugger is active!
+2025-05-16 21:31:05,061 - INFO -  * Debugger PIN: 120-245-243
+2025-05-16 21:31:23,271 - INFO - Generated new CSRF token: 265833d892dcdf8afdfff4df91fef340
+2025-05-16 21:31:23,274 - INFO - 127.0.0.1 - - [16/May/2025 21:31:23] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-05-16 21:31:23,329 - INFO - 127.0.0.1 - - [16/May/2025 21:31:23] "GET /login HTTP/1.1" 200 -
+2025-05-16 21:31:23,978 - INFO - 127.0.0.1 - - [16/May/2025 21:31:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-16 21:31:30,904 - INFO - Login attempt: Session CSRF token=265833d892dcdf8afdfff4df91fef340, Form CSRF token=265833d892dcdf8afdfff4df91fef340
+2025-05-16 21:31:31,174 - INFO - User logged in: admin, role: admin
+2025-05-16 21:31:31,174 - INFO - 127.0.0.1 - - [16/May/2025 21:31:31] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-16 21:31:31,202 - WARNING - Face log file face_logs.csv not found
+2025-05-16 21:31:31,208 - INFO - Dashboard access for user: admin, role: admin, ID: 1
+2025-05-16 21:31:31,224 - INFO - Admin dashboard loaded with 2 users, 2 subjects, 0 schedules
+2025-05-16 21:31:31,257 - INFO - 127.0.0.1 - - [16/May/2025 21:31:31] "GET /dashboard HTTP/1.1" 200 -
+2025-05-16 21:31:31,426 - INFO - 127.0.0.1 - - [16/May/2025 21:31:31] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+2025-05-16 21:31:34,508 - INFO - 127.0.0.1 - - [16/May/2025 21:31:34] "[35m[1mGET /teachers HTTP/1.1[0m" 500 -
+2025-05-16 21:31:35,822 - INFO - 127.0.0.1 - - [16/May/2025 21:31:35] "GET /teachers?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-05-16 21:31:35,823 - INFO - 127.0.0.1 - - [16/May/2025 21:31:35] "[36mGET /teachers?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-16 21:31:35,856 - INFO - 127.0.0.1 - - [16/May/2025 21:31:35] "GET /teachers?__debugger__=yes&cmd=resource&f=console.png&s=IJnFCHKEeVHYZ8G3n9BJ HTTP/1.1" 200 -
+2025-05-16 21:31:35,863 - INFO - 127.0.0.1 - - [16/May/2025 21:31:35] "GET /teachers?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-16 21:31:41,703 - INFO - 127.0.0.1 - - [16/May/2025 21:31:41] "GET /students HTTP/1.1" 200 -
+2025-05-16 21:31:45,224 - INFO - 127.0.0.1 - - [16/May/2025 21:31:45] "GET /add_user?role=student HTTP/1.1" 200 -
+2025-05-16 21:32:16,310 - ERROR - Error assigning subjects for user ahsan: (sqlite3.IntegrityError) UNIQUE constraint failed: user_subject.user_id, user_subject.role_in_subject
+[SQL: INSERT INTO user_subject (user_id, subject_id, role_in_subject) VALUES (?, ?, ?) RETURNING id]
+[parameters: (3, '2', 'student')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-16 21:32:16,313 - INFO - 127.0.0.1 - - [16/May/2025 21:32:16] "[32mPOST /add_user HTTP/1.1[0m" 302 -
+2025-05-16 21:32:16,369 - INFO - 127.0.0.1 - - [16/May/2025 21:32:16] "GET /add_user HTTP/1.1" 200 -
+2025-05-16 21:32:32,964 - INFO - 127.0.0.1 - - [16/May/2025 21:32:32] "GET /students HTTP/1.1" 200 -
+2025-05-16 21:32:36,440 - WARNING - Face log file face_logs.csv not found
+2025-05-16 21:32:36,441 - INFO - Dashboard access for user: admin, role: admin, ID: 1
+2025-05-16 21:32:36,443 - INFO - Admin dashboard loaded with 3 users, 2 subjects, 0 schedules
+2025-05-16 21:32:36,446 - INFO - 127.0.0.1 - - [16/May/2025 21:32:36] "GET /dashboard HTTP/1.1" 200 -
+2025-05-16 21:32:36,754 - INFO - 127.0.0.1 - - [16/May/2025 21:32:36] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+2025-05-16 22:07:40,468 - INFO -  * Detected change in 'C:\\Users\\Muhammad Zubair\\Desktop\\attendanceSystem\\attsys.py', reloading
+2025-05-16 22:07:40,700 - INFO -  * Restarting with stat
+2025-05-16 22:07:42,556 - WARNING -  * Debugger is active!
+2025-05-16 22:07:42,561 - INFO -  * Debugger PIN: 120-245-243
+2025-05-16 22:15:03,558 - INFO - Generated new CSRF token: a2666f4a8aeb26428fe9fa978a8e3b11
+2025-05-16 22:15:03,562 - INFO - 127.0.0.1 - - [16/May/2025 22:15:03] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-05-16 22:15:03,643 - INFO - 127.0.0.1 - - [16/May/2025 22:15:03] "GET /login HTTP/1.1" 200 -
+2025-05-16 22:15:10,263 - INFO - Login attempt: Session CSRF token=a2666f4a8aeb26428fe9fa978a8e3b11, Form CSRF token=a2666f4a8aeb26428fe9fa978a8e3b11
+2025-05-16 22:15:10,508 - WARNING - Failed login attempt for username: admin, role: admin
+2025-05-16 22:15:10,518 - INFO - 127.0.0.1 - - [16/May/2025 22:15:10] "POST /login HTTP/1.1" 200 -
+2025-05-16 22:15:18,332 - INFO - Login attempt: Session CSRF token=a2666f4a8aeb26428fe9fa978a8e3b11, Form CSRF token=a2666f4a8aeb26428fe9fa978a8e3b11
+2025-05-16 22:15:18,554 - INFO - User logged in: admin, role: admin
+2025-05-16 22:15:18,566 - INFO - 127.0.0.1 - - [16/May/2025 22:15:18] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-16 22:15:18,595 - WARNING - Face log file face_logs.csv not found
+2025-05-16 22:15:18,601 - INFO - Dashboard access for user: admin, role: admin, ID: 1
+2025-05-16 22:15:18,611 - INFO - Admin dashboard loaded with 3 users, 2 subjects, 0 schedules
+2025-05-16 22:15:18,667 - INFO - 127.0.0.1 - - [16/May/2025 22:15:18] "GET /dashboard HTTP/1.1" 200 -
+2025-05-16 22:15:19,248 - INFO - 127.0.0.1 - - [16/May/2025 22:15:19] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-16 22:15:31,935 - INFO - 127.0.0.1 - - [16/May/2025 22:15:31] "GET /teachers HTTP/1.1" 200 -
+2025-05-16 22:15:32,134 - INFO - 127.0.0.1 - - [16/May/2025 22:15:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:15:35,332 - INFO - 127.0.0.1 - - [16/May/2025 22:15:35] "GET /students HTTP/1.1" 200 -
+2025-05-16 22:15:35,472 - INFO - 127.0.0.1 - - [16/May/2025 22:15:35] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:16:39,612 - INFO - 127.0.0.1 - - [16/May/2025 22:16:39] "GET /students HTTP/1.1" 200 -
+2025-05-16 22:16:39,835 - INFO - 127.0.0.1 - - [16/May/2025 22:16:39] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-16 22:16:49,740 - WARNING - Face log file face_logs.csv not found
+2025-05-16 22:16:49,743 - INFO - Dashboard access for user: admin, role: admin, ID: 1
+2025-05-16 22:16:49,743 - INFO - Admin dashboard loaded with 3 users, 2 subjects, 0 schedules
+2025-05-16 22:16:49,751 - INFO - 127.0.0.1 - - [16/May/2025 22:16:49] "GET /dashboard HTTP/1.1" 200 -
+2025-05-16 22:16:50,002 - INFO - 127.0.0.1 - - [16/May/2025 22:16:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:16:53,543 - INFO - 127.0.0.1 - - [16/May/2025 22:16:53] "GET /teachers HTTP/1.1" 200 -
+2025-05-16 22:16:53,739 - INFO - 127.0.0.1 - - [16/May/2025 22:16:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:17:02,775 - WARNING - Face log file face_logs.csv not found
+2025-05-16 22:17:02,776 - INFO - Dashboard access for user: admin, role: admin, ID: 1
+2025-05-16 22:17:02,783 - INFO - Admin dashboard loaded with 3 users, 2 subjects, 0 schedules
+2025-05-16 22:17:02,787 - INFO - 127.0.0.1 - - [16/May/2025 22:17:02] "GET /dashboard HTTP/1.1" 200 -
+2025-05-16 22:17:03,094 - INFO - 127.0.0.1 - - [16/May/2025 22:17:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:20:25,519 - INFO - 127.0.0.1 - - [16/May/2025 22:20:25] "GET /students HTTP/1.1" 200 -
+2025-05-16 22:20:25,579 - INFO - 127.0.0.1 - - [16/May/2025 22:20:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:20:48,732 - INFO - 127.0.0.1 - - [16/May/2025 22:20:48] "GET /students HTTP/1.1" 200 -
+2025-05-16 22:20:48,762 - INFO - 127.0.0.1 - - [16/May/2025 22:20:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:20:50,720 - INFO - 127.0.0.1 - - [16/May/2025 22:20:50] "GET /students HTTP/1.1" 200 -
+2025-05-16 22:20:50,870 - INFO - 127.0.0.1 - - [16/May/2025 22:20:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:20:52,777 - WARNING - Face log file face_logs.csv not found
+2025-05-16 22:20:52,787 - INFO - Dashboard access for user: admin, role: admin, ID: 1
+2025-05-16 22:20:52,790 - INFO - Admin dashboard loaded with 3 users, 2 subjects, 0 schedules
+2025-05-16 22:20:52,790 - INFO - 127.0.0.1 - - [16/May/2025 22:20:52] "GET /dashboard HTTP/1.1" 200 -
+2025-05-16 22:20:52,929 - INFO - 127.0.0.1 - - [16/May/2025 22:20:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:20:53,769 - INFO - 127.0.0.1 - - [16/May/2025 22:20:53] "GET /teachers HTTP/1.1" 200 -
+2025-05-16 22:20:53,819 - INFO - 127.0.0.1 - - [16/May/2025 22:20:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:20:54,438 - WARNING - Face log file face_logs.csv not found
+2025-05-16 22:20:54,438 - INFO - Dashboard access for user: admin, role: admin, ID: 1
+2025-05-16 22:20:54,438 - INFO - Admin dashboard loaded with 3 users, 2 subjects, 0 schedules
+2025-05-16 22:20:54,448 - INFO - 127.0.0.1 - - [16/May/2025 22:20:54] "GET /dashboard HTTP/1.1" 200 -
+2025-05-16 22:20:54,478 - INFO - 127.0.0.1 - - [16/May/2025 22:20:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:20:55,378 - INFO - 127.0.0.1 - - [16/May/2025 22:20:55] "GET /teachers HTTP/1.1" 200 -
+2025-05-16 22:20:55,428 - INFO - 127.0.0.1 - - [16/May/2025 22:20:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:20:55,828 - WARNING - Face log file face_logs.csv not found
+2025-05-16 22:20:55,828 - INFO - Dashboard access for user: admin, role: admin, ID: 1
+2025-05-16 22:20:55,828 - INFO - Admin dashboard loaded with 3 users, 2 subjects, 0 schedules
+2025-05-16 22:20:55,828 - INFO - 127.0.0.1 - - [16/May/2025 22:20:55] "GET /dashboard HTTP/1.1" 200 -
+2025-05-16 22:20:55,878 - INFO - 127.0.0.1 - - [16/May/2025 22:20:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:21:37,959 - WARNING - Face log file face_logs.csv not found
+2025-05-16 22:21:37,963 - INFO - Dashboard access for user: admin, role: admin, ID: 1
+2025-05-16 22:21:37,963 - INFO - Admin dashboard loaded with 3 users, 2 subjects, 0 schedules
+2025-05-16 22:21:38,107 - INFO - 127.0.0.1 - - [16/May/2025 22:21:38] "GET /dashboard HTTP/1.1" 200 -
+2025-05-16 22:21:38,206 - INFO - 127.0.0.1 - - [16/May/2025 22:21:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:23:03,832 - WARNING - Face log file face_logs.csv not found
+2025-05-16 22:23:03,835 - INFO - Dashboard access for user: admin, role: admin, ID: 1
+2025-05-16 22:23:03,843 - INFO - Admin dashboard loaded with 3 users, 2 subjects, 0 schedules
+2025-05-16 22:23:03,847 - INFO - 127.0.0.1 - - [16/May/2025 22:23:03] "GET /dashboard HTTP/1.1" 200 -
+2025-05-16 22:23:04,094 - INFO - 127.0.0.1 - - [16/May/2025 22:23:04] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-16 22:23:09,566 - INFO - 127.0.0.1 - - [16/May/2025 22:23:09] "GET /teachers HTTP/1.1" 200 -
+2025-05-16 22:23:09,865 - INFO - 127.0.0.1 - - [16/May/2025 22:23:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:28:41,921 - INFO - 127.0.0.1 - - [16/May/2025 22:28:41] "GET /teachers HTTP/1.1" 200 -
+2025-05-16 22:28:41,971 - INFO - 127.0.0.1 - - [16/May/2025 22:28:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:28:46,594 - WARNING - Face log file face_logs.csv not found
+2025-05-16 22:28:46,594 - INFO - Dashboard access for user: admin, role: admin, ID: 1
+2025-05-16 22:28:46,604 - INFO - Admin dashboard loaded with 3 users, 2 subjects, 0 schedules
+2025-05-16 22:28:46,604 - INFO - 127.0.0.1 - - [16/May/2025 22:28:46] "GET /dashboard HTTP/1.1" 200 -
+2025-05-16 22:28:46,644 - INFO - 127.0.0.1 - - [16/May/2025 22:28:46] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:28:49,063 - WARNING - Face log file face_logs.csv not found
+2025-05-16 22:28:49,063 - INFO - Dashboard access for user: admin, role: admin, ID: 1
+2025-05-16 22:28:49,073 - INFO - Admin dashboard loaded with 3 users, 2 subjects, 0 schedules
+2025-05-16 22:28:49,073 - INFO - 127.0.0.1 - - [16/May/2025 22:28:49] "GET /dashboard HTTP/1.1" 200 -
+2025-05-16 22:28:49,113 - INFO - 127.0.0.1 - - [16/May/2025 22:28:49] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:28:49,742 - INFO - 127.0.0.1 - - [16/May/2025 22:28:49] "GET /teachers HTTP/1.1" 200 -
+2025-05-16 22:28:49,782 - INFO - 127.0.0.1 - - [16/May/2025 22:28:49] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:28:50,782 - INFO - 127.0.0.1 - - [16/May/2025 22:28:50] "GET /students HTTP/1.1" 200 -
+2025-05-16 22:28:50,822 - INFO - 127.0.0.1 - - [16/May/2025 22:28:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:28:51,601 - WARNING - Face log file face_logs.csv not found
+2025-05-16 22:28:51,601 - INFO - Dashboard access for user: admin, role: admin, ID: 1
+2025-05-16 22:28:51,601 - INFO - Admin dashboard loaded with 3 users, 2 subjects, 0 schedules
+2025-05-16 22:28:51,601 - INFO - 127.0.0.1 - - [16/May/2025 22:28:51] "GET /dashboard HTTP/1.1" 200 -
+2025-05-16 22:28:51,651 - INFO - 127.0.0.1 - - [16/May/2025 22:28:51] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:28:56,755 - INFO - 127.0.0.1 - - [16/May/2025 22:28:56] "GET /teachers HTTP/1.1" 200 -
+2025-05-16 22:28:56,815 - INFO - 127.0.0.1 - - [16/May/2025 22:28:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:28:57,744 - INFO - 127.0.0.1 - - [16/May/2025 22:28:57] "GET /students HTTP/1.1" 200 -
+2025-05-16 22:28:57,794 - INFO - 127.0.0.1 - - [16/May/2025 22:28:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:28:58,564 - WARNING - Face log file face_logs.csv not found
+2025-05-16 22:28:58,574 - INFO - Dashboard access for user: admin, role: admin, ID: 1
+2025-05-16 22:28:58,574 - INFO - Admin dashboard loaded with 3 users, 2 subjects, 0 schedules
+2025-05-16 22:28:58,574 - INFO - 127.0.0.1 - - [16/May/2025 22:28:58] "GET /dashboard HTTP/1.1" 200 -
+2025-05-16 22:28:58,624 - INFO - 127.0.0.1 - - [16/May/2025 22:28:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:31:29,922 - WARNING - Face log file face_logs.csv not found
+2025-05-16 22:31:29,923 - INFO - Dashboard access for user: admin, role: admin, ID: 1
+2025-05-16 22:31:29,924 - INFO - Admin dashboard loaded with 3 users, 2 subjects, 0 schedules
+2025-05-16 22:31:29,925 - INFO - 127.0.0.1 - - [16/May/2025 22:31:29] "GET /dashboard HTTP/1.1" 200 -
+2025-05-16 22:31:29,979 - INFO - 127.0.0.1 - - [16/May/2025 22:31:29] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-16 22:31:55,953 - WARNING - Face log file face_logs.csv not found
+2025-05-16 22:31:55,954 - INFO - Dashboard access for user: admin, role: admin, ID: 1
+2025-05-16 22:31:55,955 - INFO - Admin dashboard loaded with 3 users, 2 subjects, 0 schedules
+2025-05-16 22:31:55,989 - INFO - 127.0.0.1 - - [16/May/2025 22:31:55] "GET /dashboard HTTP/1.1" 200 -
+2025-05-16 22:31:56,035 - INFO - 127.0.0.1 - - [16/May/2025 22:31:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:32:00,222 - INFO - 127.0.0.1 - - [16/May/2025 22:32:00] "GET /teachers HTTP/1.1" 200 -
+2025-05-16 22:32:00,272 - INFO - 127.0.0.1 - - [16/May/2025 22:32:00] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:32:03,098 - INFO - 127.0.0.1 - - [16/May/2025 22:32:03] "GET /teachers HTTP/1.1" 200 -
+2025-05-16 22:32:03,128 - INFO - 127.0.0.1 - - [16/May/2025 22:32:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:32:05,230 - INFO - 127.0.0.1 - - [16/May/2025 22:32:05] "GET /teachers HTTP/1.1" 200 -
+2025-05-16 22:32:05,300 - INFO - 127.0.0.1 - - [16/May/2025 22:32:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:32:07,950 - WARNING - Face log file face_logs.csv not found
+2025-05-16 22:32:07,950 - INFO - Dashboard access for user: admin, role: admin, ID: 1
+2025-05-16 22:32:07,950 - INFO - Admin dashboard loaded with 3 users, 2 subjects, 0 schedules
+2025-05-16 22:32:07,950 - INFO - 127.0.0.1 - - [16/May/2025 22:32:07] "GET /dashboard HTTP/1.1" 200 -
+2025-05-16 22:32:08,010 - INFO - 127.0.0.1 - - [16/May/2025 22:32:08] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:32:34,436 - WARNING - Face log file face_logs.csv not found
+2025-05-16 22:32:34,436 - INFO - Dashboard access for user: admin, role: admin, ID: 1
+2025-05-16 22:32:34,436 - INFO - Admin dashboard loaded with 3 users, 2 subjects, 0 schedules
+2025-05-16 22:32:34,436 - INFO - 127.0.0.1 - - [16/May/2025 22:32:34] "GET /dashboard HTTP/1.1" 200 -
+2025-05-16 22:32:34,486 - INFO - 127.0.0.1 - - [16/May/2025 22:32:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:32:36,397 - WARNING - Face log file face_logs.csv not found
+2025-05-16 22:32:36,407 - INFO - Dashboard access for user: admin, role: admin, ID: 1
+2025-05-16 22:32:36,407 - INFO - Admin dashboard loaded with 3 users, 2 subjects, 0 schedules
+2025-05-16 22:32:36,407 - INFO - 127.0.0.1 - - [16/May/2025 22:32:36] "GET /dashboard HTTP/1.1" 200 -
+2025-05-16 22:32:36,557 - INFO - 127.0.0.1 - - [16/May/2025 22:32:36] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:32:38,452 - WARNING - Face log file face_logs.csv not found
+2025-05-16 22:32:38,452 - INFO - Dashboard access for user: admin, role: admin, ID: 1
+2025-05-16 22:32:38,460 - INFO - Admin dashboard loaded with 3 users, 2 subjects, 0 schedules
+2025-05-16 22:32:38,460 - INFO - 127.0.0.1 - - [16/May/2025 22:32:38] "GET /dashboard HTTP/1.1" 200 -
+2025-05-16 22:32:38,610 - INFO - 127.0.0.1 - - [16/May/2025 22:32:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:32:44,439 - INFO - User logged out: ID 1, role: admin
+2025-05-16 22:32:44,439 - INFO - 127.0.0.1 - - [16/May/2025 22:32:44] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-16 22:32:44,449 - INFO - Generated new CSRF token: b152d38d6c2f0ed37a3bbdbc86f4887a
+2025-05-16 22:32:44,449 - INFO - 127.0.0.1 - - [16/May/2025 22:32:44] "GET /login HTTP/1.1" 200 -
+2025-05-16 22:32:57,897 - INFO - Login attempt: Session CSRF token=b152d38d6c2f0ed37a3bbdbc86f4887a, Form CSRF token=b152d38d6c2f0ed37a3bbdbc86f4887a
+2025-05-16 22:32:57,997 - INFO - User logged in: zubair, role: teacher
+2025-05-16 22:32:57,997 - INFO - 127.0.0.1 - - [16/May/2025 22:32:57] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-16 22:32:58,017 - WARNING - Face log file face_logs.csv not found
+2025-05-16 22:32:58,017 - INFO - Dashboard access for user: zubair, role: teacher, ID: 2
+2025-05-16 22:32:58,017 - INFO - Teacher dashboard loaded for zubair with subject: Computer, 0 schedules, 0 attendance records, 0 students
+2025-05-16 22:32:58,057 - INFO - 127.0.0.1 - - [16/May/2025 22:32:58] "GET /dashboard HTTP/1.1" 200 -
+2025-05-16 22:32:58,127 - INFO - 127.0.0.1 - - [16/May/2025 22:32:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:35:32,352 - WARNING - Face log file face_logs.csv not found
+2025-05-16 22:35:32,352 - INFO - Dashboard access for user: zubair, role: teacher, ID: 2
+2025-05-16 22:35:32,352 - INFO - Teacher dashboard loaded for zubair with subject: Computer, 0 schedules, 0 attendance records, 0 students
+2025-05-16 22:35:32,392 - INFO - 127.0.0.1 - - [16/May/2025 22:35:32] "GET /dashboard HTTP/1.1" 200 -
+2025-05-16 22:35:32,441 - INFO - 127.0.0.1 - - [16/May/2025 22:35:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:35:45,989 - WARNING - Face log file face_logs.csv not found
+2025-05-16 22:35:45,989 - INFO - Dashboard access for user: zubair, role: teacher, ID: 2
+2025-05-16 22:35:45,989 - INFO - Teacher dashboard loaded for zubair with subject: Computer, 0 schedules, 0 attendance records, 0 students
+2025-05-16 22:35:45,989 - INFO - 127.0.0.1 - - [16/May/2025 22:35:45] "GET /dashboard HTTP/1.1" 200 -
+2025-05-16 22:35:46,039 - INFO - 127.0.0.1 - - [16/May/2025 22:35:46] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:35:48,883 - INFO - 127.0.0.1 - - [16/May/2025 22:35:48] "GET /add_or_edit_lecture_schedule HTTP/1.1" 200 -
+2025-05-16 22:35:48,943 - INFO - 127.0.0.1 - - [16/May/2025 22:35:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:36:57,719 - INFO - 127.0.0.1 - - [16/May/2025 22:36:57] "GET /mark_attendance HTTP/1.1" 200 -
+2025-05-16 22:36:57,789 - INFO - 127.0.0.1 - - [16/May/2025 22:36:57] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-16 22:36:57,789 - INFO - 127.0.0.1 - - [16/May/2025 22:36:57] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2025-05-16 22:36:57,819 - INFO - 127.0.0.1 - - [16/May/2025 22:36:57] "[33mGET /cdn-cgi/challenge-platform/scripts/jsd/main.js HTTP/1.1[0m" 404 -
+2025-05-16 22:37:04,828 - WARNING - Face log file face_logs.csv not found
+2025-05-16 22:37:04,828 - INFO - Dashboard access for user: zubair, role: teacher, ID: 2
+2025-05-16 22:37:04,838 - INFO - Teacher dashboard loaded for zubair with subject: Computer, 0 schedules, 0 attendance records, 0 students
+2025-05-16 22:37:04,838 - INFO - 127.0.0.1 - - [16/May/2025 22:37:04] "GET /dashboard HTTP/1.1" 200 -
+2025-05-16 22:37:04,878 - INFO - 127.0.0.1 - - [16/May/2025 22:37:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:37:14,202 - INFO - User logged out: ID 2, role: teacher
+2025-05-16 22:37:14,212 - INFO - 127.0.0.1 - - [16/May/2025 22:37:14] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-16 22:37:14,212 - INFO - Generated new CSRF token: b1bf160d9ac7ed013d5421c3f07039cd
+2025-05-16 22:37:14,212 - INFO - 127.0.0.1 - - [16/May/2025 22:37:14] "GET /login HTTP/1.1" 200 -
+2025-05-16 22:37:22,351 - INFO - Login attempt: Session CSRF token=b1bf160d9ac7ed013d5421c3f07039cd, Form CSRF token=b1bf160d9ac7ed013d5421c3f07039cd
+2025-05-16 22:37:22,441 - INFO - User logged in: admin, role: admin
+2025-05-16 22:37:22,441 - INFO - 127.0.0.1 - - [16/May/2025 22:37:22] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-16 22:37:22,461 - WARNING - Face log file face_logs.csv not found
+2025-05-16 22:37:22,461 - INFO - Dashboard access for user: admin, role: admin, ID: 1
+2025-05-16 22:37:22,461 - INFO - Admin dashboard loaded with 3 users, 2 subjects, 0 schedules
+2025-05-16 22:37:22,461 - INFO - 127.0.0.1 - - [16/May/2025 22:37:22] "GET /dashboard HTTP/1.1" 200 -
+2025-05-16 22:37:22,531 - INFO - 127.0.0.1 - - [16/May/2025 22:37:22] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:37:29,623 - INFO - 127.0.0.1 - - [16/May/2025 22:37:29] "GET /add_user HTTP/1.1" 200 -
+2025-05-16 22:37:29,663 - INFO - 127.0.0.1 - - [16/May/2025 22:37:29] "[33mGET /static/js/validate.js HTTP/1.1[0m" 404 -
+2025-05-16 22:37:29,663 - INFO - 127.0.0.1 - - [16/May/2025 22:37:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:37:42,195 - INFO - 127.0.0.1 - - [16/May/2025 22:37:42] "GET /add_subject HTTP/1.1" 200 -
+2025-05-16 22:37:42,257 - INFO - 127.0.0.1 - - [16/May/2025 22:37:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:37:56,514 - INFO - 127.0.0.1 - - [16/May/2025 22:37:56] "GET /add_or_edit_lecture_schedule HTTP/1.1" 200 -
+2025-05-16 22:37:56,568 - INFO - 127.0.0.1 - - [16/May/2025 22:37:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:38:01,121 - INFO - 127.0.0.1 - - [16/May/2025 22:38:01] "GET /teachers HTTP/1.1" 200 -
+2025-05-16 22:38:01,167 - INFO - 127.0.0.1 - - [16/May/2025 22:38:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:38:03,144 - INFO - 127.0.0.1 - - [16/May/2025 22:38:03] "GET /add_user?role=teacher HTTP/1.1" 200 -
+2025-05-16 22:38:03,275 - INFO - 127.0.0.1 - - [16/May/2025 22:38:03] "[33mGET /static/js/validate.js HTTP/1.1[0m" 404 -
+2025-05-16 22:38:03,276 - INFO - 127.0.0.1 - - [16/May/2025 22:38:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:38:05,693 - INFO - 127.0.0.1 - - [16/May/2025 22:38:05] "GET /students HTTP/1.1" 200 -
+2025-05-16 22:38:05,736 - INFO - 127.0.0.1 - - [16/May/2025 22:38:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:38:07,699 - INFO - 127.0.0.1 - - [16/May/2025 22:38:07] "GET /add_user?role=student HTTP/1.1" 200 -
+2025-05-16 22:38:07,833 - INFO - 127.0.0.1 - - [16/May/2025 22:38:07] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:38:07,834 - INFO - 127.0.0.1 - - [16/May/2025 22:38:07] "[33mGET /static/js/validate.js HTTP/1.1[0m" 404 -
+2025-05-16 22:40:00,592 - WARNING - Face log file face_logs.csv not found
+2025-05-16 22:40:00,592 - INFO - Dashboard access for user: admin, role: admin, ID: 1
+2025-05-16 22:40:00,592 - INFO - Admin dashboard loaded with 3 users, 2 subjects, 0 schedules
+2025-05-16 22:40:00,592 - INFO - 127.0.0.1 - - [16/May/2025 22:40:00] "GET /dashboard HTTP/1.1" 200 -
+2025-05-16 22:40:00,672 - INFO - 127.0.0.1 - - [16/May/2025 22:40:00] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:40:03,373 - INFO - 127.0.0.1 - - [16/May/2025 22:40:03] "GET /teachers HTTP/1.1" 200 -
+2025-05-16 22:40:03,423 - INFO - 127.0.0.1 - - [16/May/2025 22:40:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:40:05,883 - INFO - 127.0.0.1 - - [16/May/2025 22:40:05] "GET /teachers HTTP/1.1" 200 -
+2025-05-16 22:40:05,923 - INFO - 127.0.0.1 - - [16/May/2025 22:40:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:40:06,513 - WARNING - Face log file face_logs.csv not found
+2025-05-16 22:40:06,513 - INFO - Dashboard access for user: admin, role: admin, ID: 1
+2025-05-16 22:40:06,523 - INFO - Admin dashboard loaded with 3 users, 2 subjects, 0 schedules
+2025-05-16 22:40:06,523 - INFO - 127.0.0.1 - - [16/May/2025 22:40:06] "GET /dashboard HTTP/1.1" 200 -
+2025-05-16 22:40:06,573 - INFO - 127.0.0.1 - - [16/May/2025 22:40:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:40:11,258 - INFO - 127.0.0.1 - - [16/May/2025 22:40:11] "GET /teachers HTTP/1.1" 200 -
+2025-05-16 22:40:11,318 - INFO - 127.0.0.1 - - [16/May/2025 22:40:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-16 22:40:16,636 - INFO - 127.0.0.1 - - [16/May/2025 22:40:16] "GET /students HTTP/1.1" 200 -
+2025-05-16 22:40:16,696 - INFO - 127.0.0.1 - - [16/May/2025 22:40:16] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -

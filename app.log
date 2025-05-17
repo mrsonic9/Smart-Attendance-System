@@ -1,0 +1,281 @@
+Database initialized with predefined subjects
+Initialized admin user: admin
+Database initialized with predefined subjects
+Database initialized with predefined subjects
+Failed login attempt for username: admin, role: admin
+User logged in: admin, role: admin
+Admin admin accessed dashboard
+Added user: bilal, role: teacher, name: Muhammad Bilal
+Assigned subjects Physics to user: bilal, role: teacher
+Admin admin accessed dashboard
+Admin admin accessed dashboard
+Database initialized with predefined subjects
+Database initialized with predefined subjects
+User logged in: bilal, role: teacher
+Teacher bilal accessed dashboard for subject Physics
+Added lecture schedule for subject ID: 1
+Teacher bilal accessed dashboard for subject Physics
+Accessed mark attendance for subject Physics by bilal
+Accessed mark attendance for subject Physics by bilal
+Teacher bilal accessed dashboard for subject Physics
+Teacher bilal accessed dashboard for subject Physics
+User logged out: bilal, role: teacher
+Database initialized with predefined subjects
+Registered user: ahmad, role: student, name: Muhammad Ahmad
+Assigned subjects Computer to user: ahmad, role: student
+User logged in: admin, role: admin
+Admin admin accessed dashboard
+Admin admin viewed students dashboard
+Marked attendance for student ahmad in subjects: ['Computer']
+Admin admin viewed students list
+Admin admin accessed dashboard
+Admin admin accessed dashboard
+Initialized admin user: admin
+Database initialized with predefined subjects
+Initialized admin user: admin
+Database initialized with predefined subjects
+Failed login attempt for username: admin , role: admin
+User logged in: admin, role: admin
+Admin admin accessed dashboard
+Failed login attempt for username: bilal, role: teacher
+User logged in: admin, role: admin
+Admin admin accessed dashboard
+Initialized admin user: admin
+Database initialized with predefined subjects
+Initialized admin user: admin
+Database initialized with predefined subjects
+Initialized admin user: admin
+Database initialized with predefined subjects
+Failed login attempt for username: bilal, role: teacher
+Failed login attempt for username: admin, role: admin
+User logged in: admin, role: admin
+Admin admin accessed dashboard
+Admin admin accessed dashboard
+Admin admin accessed dashboard
+Admin admin viewed teachers list
+Admin admin viewed students list
+Admin admin accessed dashboard
+Admin admin accessed dashboard
+Admin admin accessed dashboard
+Admin admin viewed students list
+Admin admin accessed dashboard
+Admin admin viewed teachers list
+Admin admin viewed teachers list
+Admin admin accessed dashboard
+Admin admin viewed teachers list
+Admin admin viewed students list
+Admin admin viewed teachers list
+Admin admin accessed dashboard
+Admin admin accessed dashboard
+Admin admin viewed teachers list
+Admin admin viewed students list
+Admin admin accessed dashboard
+Admin admin viewed teachers list
+Initialized admin user: admin
+Database initialized with predefined subjects
+Initialized admin user: admin
+Database initialized with predefined subjects
+User logged in: admin, role: admin
+Admin admin accessed dashboard
+Admin admin viewed teachers list
+Admin admin viewed students list
+Added user: zubair, role: student, name: Muhammad Zubair, user_id: S001
+Assigned subjects Computer to user: zubair, role: student
+Admin admin accessed dashboard
+Admin admin accessed dashboard
+Admin admin accessed dashboard
+Admin admin accessed dashboard
+User logged out: admin, role: admin
+Initialized admin user: admin
+Database initialized with predefined subjects
+Initialized admin user: admin
+Database initialized with predefined subjects
+Failed login attempt for username: zubair, role: student
+User logged in: admin, role: admin
+Admin admin accessed dashboard
+Admin admin viewed students list
+Admin admin viewed teachers list
+Admin admin accessed dashboard
+Admin admin viewed students list
+Admin admin accessed dashboard
+Admin admin accessed dashboard
+Admin admin viewed teachers list
+Admin admin viewed students list
+Added user: zubair, role: student, name: Muhammad Zubair, user_id: S001
+Assigned subjects Computer to user: zubair, role: student
+Admin admin viewed students list
+Marked attendance for student zubair in subjects: ['Computer']
+Admin admin viewed students list
+Marked attendance for student zubair in subjects: ['Computer']
+Admin admin viewed students list
+Marked attendance for student zubair in subjects: ['Computer']
+Admin admin viewed students list
+Admin admin viewed teachers list
+Admin admin accessed dashboard
+Admin admin viewed teachers list
+Admin admin viewed students list
+User logged out: admin, role: admin
+User logged in: zubair, role: student
+User logged in: admin, role: admin
+Admin admin accessed dashboard
+Admin admin viewed teachers list
+Added user: bilal, role: teacher, name: Muhammad Bilal, user_id: T001
+Assigned subjects Physics to user: bilal, role: teacher
+Admin admin accessed dashboard
+Admin admin viewed students list
+Admin admin viewed students dashboard
+Marked attendance for student zubair in subjects: ['Computer']
+Admin admin viewed students list
+Admin admin viewed students dashboard
+Admin admin viewed teachers list
+Admin admin viewed students list
+Marked attendance for student zubair in subjects: ['Computer']
+Admin admin viewed students list
+Admin admin viewed teachers list
+Admin admin viewed students list
+Admin admin viewed students dashboard
+Admin admin viewed teachers list
+Admin admin viewed students list
+Admin admin viewed students list
+Admin admin accessed dashboard
+Added lecture schedule for subject ID: 1
+Admin admin accessed dashboard
+User logged out: admin, role: admin
+Failed login attempt for username: zubair, role: student
+User logged in: zubair, role: student
+Initialized admin user: admin
+Database initialized with predefined subjects
+Initialized admin user: admin
+Database initialized with predefined subjects
+Failed login attempt for username: zubair, role: student
+Failed login attempt for username: zubair, role: admin
+Initialized admin user: admin
+Database initialized with predefined subjects
+Initialized admin user: admin
+Database initialized with predefined subjects
+User logged in: admin, role: admin
+Admin admin accessed dashboard
+Admin admin viewed teachers list
+Added user: bilal, role: teacher, name: Muhammad Bilal, user_id: T001
+Assigned subjects Physics to user: bilal, role: teacher
+Admin admin accessed dashboard
+Admin admin accessed dashboard
+Admin admin accessed dashboard
+Initialized admin user: admin
+Database initialized with predefined subjects
+Initialized admin user: admin
+Database initialized with predefined subjects
+User logged in: admin, role: admin
+Admin admin accessed dashboard
+Admin admin viewed teachers list
+Added user: bilal, role: teacher, name: Muhammad Bilal, user_id: T001
+Assigned subjects Physics to user: bilal, role: teacher
+Admin admin accessed dashboard
+Admin admin accessed dashboard
+Initialized admin user: admin
+Database initialized with predefined subjects
+Initialized admin user: admin
+Database initialized with predefined subjects
+User logged in: admin, role: admin
+Admin admin accessed dashboard
+Initialized admin user: admin
+Database initialized with predefined subjects
+Initialized admin user: admin
+Database initialized with predefined subjects
+User logged in: admin, role: admin
+Admin admin accessed dashboard
+Admin admin viewed teachers list
+Admin admin viewed students list
+Admin admin viewed teachers list
+Admin admin accessed dashboard
+Admin admin viewed teachers list
+Added user: nisar, role: teacher, name: Nisar Ahmad, user_id: T001
+Assigned subjects Computer to user: nisar, role: teacher
+Admin admin accessed dashboard
+Admin admin viewed students list
+Admin admin viewed teachers list
+Admin admin accessed dashboard
+Admin admin viewed teachers list
+Admin viewed dashboard for teacher nisar, subject Computer
+Admin admin viewed students list
+Admin admin viewed teachers list
+Admin admin viewed students list
+Added user: zubair, role: student, name: Muhammad Zubair, user_id: S001
+Error assigning subjects to zubair: (sqlite3.IntegrityError) UNIQUE constraint failed: user_subject.user_id, user_subject.role_in_subject
+[SQL: INSERT INTO user_subject (user_id, subject_id, role_in_subject) VALUES (?, ?, ?) RETURNING id]
+[parameters: (3, 2, 'student')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Admin admin viewed students list
+Admin admin viewed students list
+Admin admin accessed dashboard
+Admin admin viewed students list
+Admin admin viewed students dashboard
+No subjects assigned to student zubair
+Admin admin viewed students list
+Deleted user: zubair
+Admin admin viewed teachers list
+Admin admin viewed students list
+Added user: zubair, role: student, name: Muhamad Zubair, user_id: S001
+Assigned subjects Computer to user: zubair, role: student
+Admin admin viewed students list
+Added user: bilal, role: student, name: Muhammad Bilal, user_id: S002
+Assigned subjects Physics to user: bilal, role: student
+Admin admin viewed students list
+Added user: ahad, role: student, name: Muhammad Ahad, user_id: S003
+Assigned subjects Biology to user: ahad, role: student
+Admin admin viewed students list
+Admin admin viewed teachers list
+Added user: ahsan, role: teacher, name: Muhammad Ahsan, user_id: T002
+Assigned subjects Physics to user: ahsan, role: teacher
+Admin admin accessed dashboard
+Admin admin accessed dashboard
+User logged out: admin, role: admin
+User logged in: zubair, role: student
+Initialized admin user: admin
+Database initialized with predefined subjects
+Initialized admin user: admin
+Database initialized with predefined subjects
+User logged in: admin, role: admin
+Admin admin accessed dashboard
+Admin admin viewed teachers list
+Added user: zubair, role: teacher, name: Muhammad Zubair, user_id: T001
+Assigned subjects Computer to user: zubair, role: teacher
+Admin admin accessed dashboard
+Admin admin accessed dashboard
+Admin admin viewed teachers list
+Admin admin accessed dashboard
+Admin admin viewed teachers list
+Error changing subject for teacher zubair: (sqlite3.IntegrityError) UNIQUE constraint failed: user_subject.user_id, user_subject.role_in_subject
+[SQL: INSERT INTO user_subject (user_id, subject_id, role_in_subject) VALUES (?, ?, ?)]
+[parameters: (2, '1', 'teacher')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Admin viewed dashboard for teacher zubair, subject Computer
+Admin viewed dashboard for teacher zubair, subject Computer
+Admin admin viewed students list
+Added user: bilal, role: student, name: Muhammad Bilal, user_id: S001
+Error assigning subjects to bilal: (sqlite3.IntegrityError) UNIQUE constraint failed: user_subject.user_id, user_subject.role_in_subject
+[SQL: INSERT INTO user_subject (user_id, subject_id, role_in_subject) VALUES (?, ?, ?) RETURNING id]
+[parameters: (3, 2, 'student')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Admin admin viewed students list
+Admin admin viewed students list
+User logged out: admin, role: admin
+Failed login attempt for username: bilal , role: student
+User logged in: bilal, role: student
+Student bilal accessed dashboard with subjects: []
+User logged out: bilal, role: student
+User logged in: zubair, role: teacher
+Teacher zubair accessed dashboard for subject Computer
+Failed login attempt for username: admin, role: teacher
+User logged in: admin, role: admin
+Admin admin accessed dashboard
+Added lecture schedule for subject ID: 2
+Admin admin accessed dashboard
+Admin admin viewed students list
+Admin admin viewed teachers list
+Admin admin viewed students list
+No subjects assigned to student bilal
+Admin admin viewed students list
+Admin admin viewed students dashboard
+Admin admin viewed students dashboard
+Admin admin accessed dashboard
